@@ -34,7 +34,7 @@ Functor __MakeIterator__ make a module to traverse ast.
 MakeItertor's argument module have functions called when a related componet to the function is found.
 (When we traverse __pattern__ , __enter_pattern__ and __leave_pattern__ are called)
 
-Now, We need only define functions which affect componets now we want to check because __DefaultIteratorArgument__.
+Now, We need only define functions which affect componets now we want to check because __DefaultIteratorArgument__　define default behaviors.
 In this case, I want to check patterns.
 So I define __entry_pattern__ and shadowing definition in __DefaultIterArgument__'s one.
 (See definiton of __DefaultIteratorArgument__. All of function in this module are id)
